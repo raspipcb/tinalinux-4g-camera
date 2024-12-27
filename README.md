@@ -4,7 +4,7 @@ Tina-Linux based 4G USB camera
 ## Setting Up the Tinalinux Build Environment
 
 1. Download the Ubuntu VMware image from this [Google Drive link](https://drive.google.com/drive/folders/1lrqDsxtGl8WvU7o547lT9IkHwGyAHXFU?spm=a2g0o.detail.1000023.1.74524KRw4KRwT2) located in the VOS folder.
-2. Extract the image and open it in VMware.
+2. Extract the image and open it in VMware, password of vm is 123456.
 3. Build the SDK following the manufacturer’s [wikipage](http://wiki.lctech.cc/index.php?title=LC-PI-T113).
 
 ### Steps to Build Tina-Linux
