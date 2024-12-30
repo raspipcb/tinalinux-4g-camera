@@ -44,16 +44,30 @@ pack
 After running these commands, the location of the generated image will be displayed.
 
 ## Enable USB camera support and fswebcam
+
+### Enable USB camera support (UVC)
 To enable USB camera support we need to modify kernel configuration
 ```shell
 m kernel_menuconfig
 ```
 
-then go through
+then go through and selected the required ones.
 ```
 Device Drivers ----->
         Multimedia support ----->
             [*]  Cameras/video grabbers support
         [*] Media USB adapters ----->
             [*] USB video class (UVC)
+```
+
+### Include fswebcam package
+
+First create a directory under `Tina-Linux/package/multimedia/fswebcam/`, then copy the content of fswebcam-Makefile under `Tina-Linux/package/multimedia/fswebcam/Makefile` and run:
+```bash
+m menuconfig
+```
+Now you will be able to select fswebcam package under:
+```
+Multimedia ------>
+    [*] fswebcam
 ```
