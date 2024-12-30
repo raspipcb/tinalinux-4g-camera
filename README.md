@@ -42,3 +42,18 @@ mboot
 pack
 ```
 After running these commands, the location of the generated image will be displayed.
+
+## Enable USB camera support and fswebcam
+To enable USB camera support we need to modify kernel configuration
+```shell
+m kernel_menuconfig
+```
+
+then go through
+```
+Device Drivers ----->
+        Multimedia support ----->
+            [*]  Cameras/video grabbers support
+        [*] Media USB adapters ----->
+            [*] USB video class (UVC)
+```
