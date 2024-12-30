@@ -30,7 +30,7 @@ m menuconfig
 
 After completing the configuration, build Tina-Linux by running:
 ```shell
-build
+make
 ```
 During the compilation process, confirm all prompts when prompted.
 
