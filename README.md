@@ -71,3 +71,7 @@ Now you will be able to select fswebcam package under:
 Multimedia ------>
     [*] fswebcam
 ```
+## EC25 Quectel module USB support
+to enable EC25 as USB modem please follow
+Quectel_LTE5G_Linux_USB_Driver_User_Guide_V2.0.pdf instructions accordingly.
+
