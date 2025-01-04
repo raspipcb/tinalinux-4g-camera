@@ -62,7 +62,7 @@ Device Drivers ----->
 
 ### Include fswebcam package
 
-First create a directory under `Tina-Linux/package/multimedia/fswebcam/`, then copy the content of fswebcam-Makefile under `Tina-Linux/package/multimedia/fswebcam/Makefile` and run:
+First create a directory under `Tina-Linux/package/multimedia/fswebcam/`, then copy the content of [fswebcam-Makefile](https://github.com/raspipcb/tinalinux-4g-camera/blob/main/fswebcam-Makefile) under `Tina-Linux/package/multimedia/fswebcam/Makefile` and run:
 ```bash
 m menuconfig
 ```
@@ -73,5 +73,5 @@ Multimedia ------>
 ```
 ## EC25 Quectel module USB support
 to enable EC25 as USB modem please follow
-Quectel_LTE5G_Linux_USB_Driver_User_Guide_V2.0.pdf instructions accordingly.
+[Quectel_LTE5G_Linux_USB_Driver_User_Guide_V2.0.pdf](https://github.com/raspipcb/tinalinux-4g-camera/blob/main/Quectel_LTE5G_Linux_USB_Driver_User_Guide_V2.0.pdf) instructions accordingly.
 
